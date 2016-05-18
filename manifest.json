@@ -1,0 +1,17 @@
+{
+    "name"       : "Keyboard Enter by Baihuzi",
+    "version"    : "1.0.1",
+    "description": "This is love Code ,Because this is for the wife,-----Baihuzi",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://doctor.gengmei.cc/doctor/conversation/*"
+            ],
+            "js"     : [
+                "jquery.js",
+                "myscript.js"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}
