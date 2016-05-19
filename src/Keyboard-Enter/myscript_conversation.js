@@ -1,7 +1,11 @@
 /**
  * Created by Baihuzi on 2016/5/18.
  */
-function setFocus(obj) {
+
+/**
+ * @funciton name setFocus
+ */
+function c(obj) {
     if (obj.setSelectionRange) {
         setTimeout(function () {
             obj.setSelectionRange(0, 0);
@@ -24,7 +28,6 @@ function setFocus(obj) {
 
 $(function () {
     setFocus($("#reply_frame"));
-    //$("#reply_frame").attr("autofocus","true");
     document.onkeydown = function (e) {
         var ev = document.all ? window.event : e;
         if (ev.keyCode == 13) {
@@ -36,7 +39,5 @@ $(function () {
 
         }
     };
-
-
 });
 

@@ -9,7 +9,16 @@
             ],
             "js"     : [
                 "jquery.js",
-                "myscript.js"
+                "myscript_conversation.js"
+            ]
+        },
+        {
+            "matches": [
+                "http://doctor.gengmei.cc/doctor/pm/"
+            ],
+            "js"     : [
+                "jquery.js",
+                "myscript_pm.js"
             ]
         }
     ],
