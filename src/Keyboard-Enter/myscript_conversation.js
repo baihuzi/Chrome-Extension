@@ -5,7 +5,7 @@
 /**
  * @funciton name setFocus
  */
-function c(obj) {
+function setFocus(obj) {
     if (obj.setSelectionRange) {
         setTimeout(function () {
             obj.setSelectionRange(0, 0);
